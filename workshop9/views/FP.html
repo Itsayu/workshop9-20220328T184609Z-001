@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/FPStyle.css">
+    <title>Forget Password</title>
+</head>
+
+<body>
+    <div class="container1">
+        <form>
+            <h2>Forget Password</h2>
+            <h5>Enter email here that you used on your account. We send link
+                your email to reset your password.</h5>
+            <input type="text" name="username" placeholder="Enter your email">
+            <input type="button" value="Send" onclick="myFunction()">
+            <!-- <div id="snackbar">
+                Link send on your email successfully!!
+            </div> -->
+            <a href="../views/index.html" style="text-decoration: none;">Go to Home page</a>
+        </form>
+    </div>
+
+    <script>
+        // function myFunction() {
+        //     var x = document.getElementById("msg");
+        //     x.className = "show";
+        //     setTimeout(function () { x.className =
+        //             x.className.replace("show", ""); }, 3000);
+        // }
+
+        function myFunction() {
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            setTimeout(function () { x.className =
+                x.className.replace("show", "");}, 3000);
+        }
+    </script>
+
+</body>
+
+</html>

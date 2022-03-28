@@ -1,0 +1,11 @@
+{
+  "name": "web-library",
+  "version": "1.0.0",
+  "description": "This a weblibrary website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Woorkshop",
+  "license": "ISC"
+}

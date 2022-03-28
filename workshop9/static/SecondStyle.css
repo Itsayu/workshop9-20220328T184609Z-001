@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.full{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70%;
+    width: 90%;
+    margin: 20px 40px;
+    background-color: rgb(250, 230, 250);
+}
+.B-btn{
+    margin-left: 630px;
+    margin-bottom: 20px;
+    background-color: rgb(247, 227, 247);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.B-btn li {
+    list-style: none;
+    margin: 5px 30px;
+    font-size: 20px;
+}
+.B-btn li a{
+    text-decoration: none;
+    color: purple;
+}
+.B-btn:hover{
+    background-color: rgb(252, 205, 252);
+    transition: .3s;
+}
+.blocks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 1100px;
+    height: 14vh;
+    margin: 15px 30px;
+    background-color: rgb(248, 193, 248);
+}
+.r-b{
+    border-radius: 30px;
+    height: 15vh;
+    margin: 15px auto;
+}
+.right{
+    height: 800px;
+    margin: 15px 40px;
+    padding: 10px 80px;
+    /* background-color: rgb(248, 193, 248); */
+}
+h1{
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    margin: 15px 40px;
+    padding: 10px 110px;
+    
+}
+h2 {
+    color: white;
+    margin: 0 auto;
+    /* margin-right: 1150px; */
+    padding: 5px 7px;
+    margin-top: 16px;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.sem {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.sem li{
+    text-decoration: none;
+    list-style: none;
+    margin: auto 200px;
+}
+.sem li a{
+    font-size: 20px;
+}
+.M-btn{
+    margin: 5px 50px;
+    padding: 3px 15px;
+    background-color: rgb(247, 216, 247);
+    border-radius: 5px;
+}
+.M-btn a{
+    text-decoration: none;
+}

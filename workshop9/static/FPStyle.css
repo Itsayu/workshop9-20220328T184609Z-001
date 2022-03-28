@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+body{
+    font-family: 'Kanit', sans-serif;
+    background-image: url(../static/image/img.png);
+}
+
+#msg{
+    visibility: hidden;
+    min-width: 250px;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    right: 30%;
+    top: 30px;
+    font-size: 17px;
+    margin-right: 30px;
+}
+/* #msg.show{
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+ @-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+@-keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+@-webkit-keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+@-keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}  */
+a{
+    color: yellow;
+    /* text-decoration: blink; */
+    margin-left: 69px;
+}
+a:hover{
+    color: rgba(201, 201, 6, 0.774);
+}
+.container1{
+    border: 1.5px solid white;
+    background-color: black;
+    padding: 40px;
+    width: 265px;
+    height: 350px;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 220px;
+}
+
+h2{
+    margin-top: 28px;
+    margin-left: 50px;
+    color:white;
+}
+h5{
+    font-size: 14px;
+    color: yellow;
+    margin: 10px 5px;
+}
+input{
+    border: 2px solid white;
+    outline: none;
+}
+input[type=text]{
+    background-color: black;
+    color: white;
+    line-height: 25px;
+    padding: 5px 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+input[type=button]{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 180px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+
+}
+input[type=button]:hover{
+    background: rgb(85, 79, 79);
+    border: 2px solid white;
+    transition: .5s;
+}
+/* ::placeholder{
+    color: aliceblue;
+    opacity: 0.8;
+} */
